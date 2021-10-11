@@ -1,0 +1,119 @@
+/* 
+-------------------------------------------------
+Project: Complete
+Author: Donald Umeh
+Email: donaldumeh54@gmail.com
+Website: donaldumeh.com
+---------------------------------------------------
+*/
+
+/* body colors and other res needs */
+body {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(223, 213, 200);
+}
+/* header (company's name & contact) */
+#header div{
+    background-color: rgb(34, 104, 209);
+    margin: -10px;
+    position: relative;
+    top: -12px;
+    padding: 0px;
+    color: white;
+    box-shadow: 0 0 5px 0;
+    width:100%;
+    z-index: 1;
+}
+/* Company Name */
+#header div h1 {
+    padding: 30px 0 20px 50px;
+    font-family: "cooper black", san-serif;
+}
+/* Contact*/
+#header p {
+  position: absolute;
+  top: 30px;
+  left: 1000px;
+}
+/* Header link Call toll free */
+#header .head {
+    text-decoration: none;
+    color: white;
+    font-weight: bold
+}
+
+/* Navigation */
+#header ul {
+    background-color: rgba(22, 20, 20, 0.918);
+    color: white;
+    text-align: center;
+    margin: 0 0 0 -10px;
+    padding: 17px;
+    position: relative;
+    top: -45px;
+   
+}
+
+#header .nav li{
+    display: inline;
+    padding: 60px;
+    }
+#header .nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Main Image */
+#img-column {
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 70px;
+    margin-right:70px;
+}
+#img-column .chome{
+    margin-top: 20px;
+    width: 98%;
+    height: 290px;
+}
+.column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.first-column {
+    background-color:  rgb(223, 213, 200);
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.first-column img {
+    margin-top: 10px;
+}
+.second-column {
+  background-color: rgb(223, 213, 200);
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.second-column img {
+    margin-top: 10px;
+}
+.third-column{
+    background-color:  rgb(223, 213, 200);
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.third-column img {
+    margin-top: 10px;
+}
